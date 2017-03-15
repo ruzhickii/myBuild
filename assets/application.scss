@@ -1,0 +1,11 @@
+body {
+    background: #fff;
+    color: #686868;
+    transition: all 0.4s ease;
+    font-family: "Roboto", sans-serif;
+    overflow-y: scroll;
+
+    .active{
+        color: red;
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "presets": [["es2015", { "modules": false }], "react", "stage-0", "stage-1", "stage-2", "stage-3"],
+  "plugins": [
+    [
+      "transform-runtime",
+      { "helpers": false, "polyfill": false}
+    ]
+  ],
+  "env": {
+    "development": { "plugins": ["transform-decorators-legacy"] },
+    "test": { "plugins": ["transform-es2015-modules-commonjs"] }
+  }
+}
