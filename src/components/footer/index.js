@@ -1,16 +1,17 @@
 import React, {Component, PropTypes} from "react";
+import getStyles from "./styles";
 
 class Footer extends Component {
 
     render() {
+        const styles = getStyles(this.context);
+
         return (
-            <div className="container">
-                <div className="row">
-                    <div>
-                        Its our FOOTER !
-                    </div>
+            <footer>
+                <div style={styles.title}>
+                    Its our FOOTER !
                 </div>
-            </div>
+            </footer>
         )
     }
 }

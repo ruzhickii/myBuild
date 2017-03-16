@@ -3,13 +3,14 @@ import {IndexRoute, Route} from "react-router";
 import {Application, Home, NotFound, About} from "../containers";
 
 function AppRoutes() {
-    return(
+    return[
+
         <Route path="/" component={Application}>
             <IndexRoute component={Home}/>
             <Route path={'/about'} component={About}/>
-            <Route path="*" component={NotFound}/>
-        </Route>
-    )
+        </Route>,
+        <Route path="*" component={NotFound}/>
+    ]
 }
 
 export default AppRoutes;

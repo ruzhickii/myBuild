@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import {Header,Footer} from '../../components'
+import {Header,Footer, Content} from '../../components'
 
 @connect(state => state)
 
@@ -12,12 +12,13 @@ class RootPortal extends Component {
 
     render() {
         return (
-            <div>
-                <Header />
-                <section>{this.props.children}</section>
-                <Footer />
-            </div>
-        );
+               <section className="animated fadeIn">
+                   <Header  {...this.props}/>
+                   <Content {...this.props}/>
+                   <Footer  {...this.props}/>
+               </section>
+
+        )
     }
 
 }
