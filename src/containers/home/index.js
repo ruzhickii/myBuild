@@ -19,9 +19,9 @@ class Home extends Component {
                 <Helmet title="Home Page"/>
                 <div style={styles.title}>
                     <p>Home</p>
-                    <div style={styles.imgBlock}><img style={styles.img} src={require('../../../images/kosti.png')}
+                    <div style={styles.imgBlock}><img style={styles.img} src={require('../../images/kosti.png')}
                                                       alt="image"/></div>
-                    <div style={styles.imgBlock}><img style={styles.img} src={require('../../../images/kosti.png')}
+                    <div style={styles.imgBlock}><img style={styles.img} src={require('../../images/kosti.png')}
                                                       alt="image"/></div>
                 </div>
                 <div>
