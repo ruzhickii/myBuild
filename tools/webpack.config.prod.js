@@ -66,7 +66,6 @@ module.exports = {
             },
             {
                 test: /.(png|jpg|jpeg|ico|gif|svg|woff|woff2|eot|ttf)(\?v=\d+\.\d+\.\d+)?$/,
-                exclude: /(node_modules|bower_components)/,
                 use: [
                     {
                         loader: 'url-loader?limit=100000'
