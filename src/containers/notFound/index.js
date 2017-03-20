@@ -12,7 +12,8 @@ class NotFound extends Component {
         return (
             <section style={styles.root}>
                 <Helmet title="Not Found"/>
-                <div style={styles.imgBlock}><img style={styles.img} src={require('../../../images/kosti.png')} alt="image"/></div>
+                <div style={styles.imgBlock}><img style={styles.img} src={require('../../../images/kosti.png')}
+                                                  alt="image"/></div>
                 <div style={styles.text}>ERROR 404 !!!</div>
                 <div style={styles.text}>Page Not Found</div>
                 <div style={styles.homeText}>Back to

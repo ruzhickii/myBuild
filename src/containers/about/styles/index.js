@@ -1,6 +1,6 @@
 export default function (context) {
     return {
-        title:{
+        title: {
             background: "rgb(231, 231, 231)",
             padding: "1em",
             color: "#000",

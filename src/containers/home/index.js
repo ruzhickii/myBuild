@@ -7,7 +7,7 @@ import getStyles from "./styles";
 
 class Home extends Component {
 
-    componentWillMount(){
+    componentWillMount() {
         console.log('Home')
     }
 
@@ -15,11 +15,17 @@ class Home extends Component {
         const styles = getStyles(this.context);
 
         return (
-            <div className="animated bounce" >
+            <div className="animated bounce">
                 <Helmet title="Home Page"/>
-                    <div style={styles.title}>
-                        <p>Home</p>
-                    </div>
+                <div style={styles.title}>
+                    <p>Home</p>
+                    <div style={styles.imgBlock}><img style={styles.img} src={require('../../../images/kosti.png')}
+                                                      alt="image"/></div>
+                    <div style={styles.imgBlock}><img style={styles.img} src={require('../../../images/kosti.png')}
+                                                      alt="image"/></div>
+                </div>
+                <div>
+                </div>
             </div>
         )
     }

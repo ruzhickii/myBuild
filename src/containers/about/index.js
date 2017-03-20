@@ -7,7 +7,7 @@ import getStyles from "./styles";
 
 class Home extends Component {
 
-    componentWillMount(){
+    componentWillMount() {
         console.log('About')
     }
 

@@ -28,10 +28,9 @@ app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, './dist/client/index.html'));
 });
 
-app.listen(9099, '0.0.0.0', function (err) {
+app.listen(process.env.PORT || 8080, '0.0.0.0', function (err) {
     if (err) {
         console.error(err);
         return;
     }
-    console.log('Listening at http://localhost:9099');
 });

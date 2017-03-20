@@ -9,14 +9,20 @@ class Header extends Component {
         return (
             <header>
                 <nav style={styles.title}>
-                   <div>
-                       <IndexLink style={styles.link} activeClassName={'active'} to={'/'}>
-                           Home
-                       </IndexLink>
-                       <Link activeClassName={'active'} to={'/about'}>
-                           About
-                       </Link>
-                   </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <IndexLink style={styles.link} activeClassName={'active'} to={'/'}>
+                                    Home
+                                </IndexLink>
+                            </li>
+                            <li>
+                                <Link style={styles.link} activeClassName={'active'} to={'/about'}>
+                                    About
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
         )

@@ -1,27 +1,28 @@
 export default function (context) {
     return {
-        root:{
-            background: "#000"
+        root: {
+            background: "#000",
+            height: "100vh"
         },
-        imgBlock:{
+        imgBlock: {
             textAlign: "center"
         },
-        img:{
+        img: {
             width: "500px"
         },
-        text:{
+        text: {
             color: "#fff",
             fontSize: "50px",
             textAlign: "center",
             fontFamily: "cursive"
         },
-        homeText:{
+        homeText: {
             color: "#fff",
             fontSize: "25px",
             textAlign: "center",
             fontFamily: "cursive"
         },
-        link:{
+        link: {
             textDecoration: "none",
             color: "#fff",
             margin: "0 5px"

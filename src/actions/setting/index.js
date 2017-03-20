@@ -11,7 +11,7 @@ export function getSetting() {
             .then(({data}) => {
                 const {setting} = data;
                 dispatch({
-                    type   : types.GET_SETTING,
+                    type: types.GET_SETTING,
                     payload: setting
                 });
 

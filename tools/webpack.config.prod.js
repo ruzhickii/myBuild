@@ -6,7 +6,7 @@ const CompressionPlugin = require("compression-webpack-plugin");
 
 module.exports = {
     entry: {
-        main: resolve(__dirname, '../client'),
+        main: resolve(__dirname, '../src'),
         vendor: [
             'react',
             'react-dom',
@@ -24,7 +24,7 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                include: [resolve(__dirname, '../client'), resolve(__dirname, "node_modules")],
+                include: [resolve(__dirname, '../src'), resolve(__dirname, "node_modules")],
                 use: 'babel-loader',
             },
             {
@@ -131,7 +131,7 @@ module.exports = {
             },
             filename: 'index.html',
             title: 'ITTEAM',
-            template: 'client/template.html',
+            template: 'src/index.html',
         }),
         new CompressionPlugin({
             asset: "[path].gz[query]",
