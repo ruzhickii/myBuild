@@ -2,7 +2,7 @@
   "name": "portal",
   "version": "0.0.1",
   "description": "Production Client PORTAL",
-  "main": "dist",
+  "main": "server.js",
   "scripts": {
     "dev_client": "webpack-dev-server --open --config tools/webpack.config.dev.js --progress --profile --colors",
     "build_client": "rm -rf dist && webpack --config tools/webpack.config.prod.js --progress --profile --colors  && cp -a static/ dist/client",
