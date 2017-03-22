@@ -2,6 +2,7 @@ import React, {Component, PropTypes} from "react";
 import {connect} from "react-redux";
 import Helmet from "react-helmet";
 import getStyles from "./styles";
+import {ResumeTitle} from "../../components";
 
 @connect(state => state)
 
@@ -17,12 +18,7 @@ class Home extends Component {
         return (
             <div className="animated bounce">
                 <Helmet title="Home Page"/>
-                <div style={styles.title}>
-                    <div><p>Home</p></div>
-                    <div style={styles.imgBlock}><img style={styles.img} src={require('../../images/kosti.png')} alt="image"/></div>
-                </div>
-                <div>
-                </div>
+                <ResumeTitle />
             </div>
         )
     }

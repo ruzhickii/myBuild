@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Link, IndexLink} from "react-router"
 import getStyles from "./styles";
 
+
 class Header extends Component {
     render() {
         const styles = getStyles(this.context);
@@ -11,8 +12,8 @@ class Header extends Component {
                 <nav style={styles.navigation}>
                     <div className="container">
                         <div className="row">
-                            <div className="col-xs-12 col-md-6">
-                                <div className="animated slideInLeft" style={styles.textAlign}>
+                            <div className="col-xs-12 col-md-6 animated slideInLeft">
+                                <div style={styles.textAlign}>
                                     <h2 style={styles.nameTitle}>RUZHICKII ALEXANDER</h2>
                                     <span style={styles.position}>Front-End Developer</span>
                                 </div>

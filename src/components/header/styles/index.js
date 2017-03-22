@@ -1,10 +1,10 @@
 export default function (context) {
     return {
         navigation: {
-            background: "rgb(231, 231, 231)",
+            //background: "rgb(231, 231, 231)",
             padding: "5px",
             color: "#000",
-            boxShadow: "rgb(184, 184, 184) 0px 0px 0px 1px",
+            //boxShadow: "rgb(184, 184, 184) 0px 0px 0px 1px",
             textAlign: "center"
         },
         link: {
@@ -24,16 +24,16 @@ export default function (context) {
         },
         linkResume:{
             float: "left",
-            background: "#F44336",
-            height: "100px",
-            width: "100px",
-            margin: "5px 5px",
-            lineHeight: "100px",
+            background: "#2196F3",
+            height: "75px",
+            width: "75px",
+            margin: "5px",
+            lineHeight: "79px",
             borderRadius: "10px"
         },
         linkPortfolio:{
             float: "left",
-            background: "#2196F3",
+            background: "#F44336",
             height: "100px",
             width: "100px",
             margin: "5px 0",
