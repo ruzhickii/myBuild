@@ -17,8 +17,11 @@ class Home extends Component {
         return (
             <div className="animated bounce">
                 <div style={styles.title}>
-                    <Helmet title="About"/>
+                    <Helmet title="About Page"/>
                     <p>About</p>
+                    <div>
+                        Hello page about
+                    </div>
                 </div>
             </div>
         )

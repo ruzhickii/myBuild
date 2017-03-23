@@ -1,10 +1,8 @@
 export default function (context) {
     return {
         navigation: {
-            //background: "rgb(231, 231, 231)",
             padding: "5px",
             color: "#000",
-            //boxShadow: "rgb(184, 184, 184) 0px 0px 0px 1px",
             textAlign: "center"
         },
         link: {
@@ -13,7 +11,7 @@ export default function (context) {
             color: "#000"
         },
         textAlign:{
-          textAlign: "left"
+            textAlign: "left"
         },
         nameTitle:{
             fontFamily: "serif"
@@ -22,7 +20,7 @@ export default function (context) {
             fontSize: "20px",
             color: "gray"
         },
-        linkResume:{
+        linkHome:{
             float: "left",
             background: "#2196F3",
             height: "75px",
@@ -31,15 +29,23 @@ export default function (context) {
             lineHeight: "79px",
             borderRadius: "10px"
         },
-        linkPortfolio:{
+        linkResume:{
             float: "left",
             background: "#F44336",
+            height: "85px",
+            width: "85px",
+            margin: "5px 0",
+            lineHeight: "90px",
+            borderRadius: "10px"
+        },
+        linkAbout:{
+            float: "left",
+            background: "#FBC02D",
             height: "100px",
             width: "100px",
-            margin: "5px 0",
+            margin: "5px",
             lineHeight: "100px",
             borderRadius: "10px"
         }
-
     }
 }

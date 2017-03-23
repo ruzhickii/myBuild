@@ -2,15 +2,14 @@ import React, {Component, PropTypes} from "react";
 import {connect} from "react-redux";
 import Helmet from "react-helmet";
 import getStyles from "./styles";
-import {Information} from "../../components";
-
+import {ResumeTitle} from "../../components";
 
 @connect(state => state)
 
-class Home extends Component {
+class Resume extends Component {
 
     componentWillMount() {
-        console.log('Home')
+        console.log('Resume')
     }
 
     render() {
@@ -18,11 +17,13 @@ class Home extends Component {
 
         return (
             <div className="animated bounce">
-                <Helmet title="Home Page"/>
-                <Information />
+                <Helmet title="Resume Page"/>
+                <div>
+                    <ResumeTitle />
+                </div>
             </div>
         )
     }
 }
 
-export default Home
+export default Resume

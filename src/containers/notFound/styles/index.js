@@ -4,12 +4,6 @@ export default function (context) {
             background: "#000",
             height: "100vh"
         },
-        imgBlock: {
-            textAlign: "center"
-        },
-        img: {
-            width: "500px"
-        },
         text: {
             color: "#fff",
             fontSize: "50px",

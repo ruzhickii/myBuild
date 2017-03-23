@@ -13,7 +13,7 @@ export default function (context) {
         },
         textHome: {
           fontSize: "25px",
-          color: "#2196F3"
+          color: "rgb(244, 67, 54)"
         },
         textResume:{
           fontSize: "17px"
