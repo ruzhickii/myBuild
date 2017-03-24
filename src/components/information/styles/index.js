@@ -28,7 +28,8 @@ export default function (context) {
         },
         imgBlock:{
             marginTop: "50px",
-            color: "#aaaaaa"
+            color: "#aaaaaa",
+            boxShadow: "4px 5px 9px 5px"
         },
         img: {
           width: "100%"
