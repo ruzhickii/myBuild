@@ -7,14 +7,12 @@ export default function (context) {
         text: {
             color: "#fff",
             fontSize: "50px",
-            textAlign: "center",
-            fontFamily: "cursive"
+            textAlign: "center"
         },
         homeText: {
             color: "#fff",
             fontSize: "25px",
-            textAlign: "center",
-            fontFamily: "cursive"
+            textAlign: "center"
         },
         link: {
             textDecoration: "none",

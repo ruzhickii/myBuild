@@ -10,7 +10,7 @@ class NotFound extends Component {
         const styles = getStyles(this.context);
 
         return (
-            <section style={styles.root}>
+            <section className="notFound" style={styles.root}>
                 <Helmet title="Not Found"/>
                 <div style={styles.imgBlock}><img style={styles.img} src={require('../../images/kosti.png')}
                                                   alt="image"/></div>
