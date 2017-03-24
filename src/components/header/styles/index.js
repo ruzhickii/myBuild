@@ -8,7 +8,8 @@ export default function (context) {
         link: {
             margin: "0px 10px",
             textDecoration: "none",
-            color: "#000"
+            color: "#fff",
+            fontWeight: "bold"
         },
         textAlign:{
             textAlign: "left"

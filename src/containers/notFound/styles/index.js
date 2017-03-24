@@ -20,6 +20,9 @@ export default function (context) {
             textDecoration: "none",
             color: "#fff",
             margin: "0 5px"
+        },
+        imgBlock:{
+            textAlign: "center"
         }
     }
 }

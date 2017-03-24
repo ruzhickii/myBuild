@@ -31,7 +31,7 @@ export default function (context) {
             color: "#aaaaaa"
         },
         img: {
-          width: "145px"
+          width: "100%"
         },
         letter:{
             width: "32px",
