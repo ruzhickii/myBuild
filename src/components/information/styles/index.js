@@ -51,7 +51,8 @@ export default function (context) {
         },
         infoBlock:{
             fontWeight: "bold",
-            color: "#000"
+            color: "#000",
+            marginTop: "10px"
         },
         infoText:{
             fontWeight: "500px",
