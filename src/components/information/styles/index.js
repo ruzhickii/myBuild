@@ -1,8 +1,7 @@
 export default function (context) {
     return {
         test:{
-         background: "#fff",
-         height: "600px"
+         background: "#fff"
         },
         headerText:{
             color: "#000",

@@ -3,7 +3,6 @@ import {Link, IndexLink} from "react-router"
 import getStyles from "./styles";
 
 import * as scss from './scss/root.scss';
-//import Information from "../information/index";
 
 
 class Header extends Component {
@@ -42,6 +41,12 @@ class Header extends Component {
                     </div>
                 </nav>
             </header>
+
+
+
+
+
+
         )
     }
 }
