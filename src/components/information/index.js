@@ -75,7 +75,6 @@ class Information extends Component {
                                 ADDRESS:<span style={styles.infoText}> KIEV</span>
                                 <div style={styles.line}></div>
                             </div>
-                            <div></div>
                         </div>
                     </div>
                 </div>

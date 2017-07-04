@@ -12,7 +12,7 @@ class RootPortal extends Component {
 
     render() {
         return (
-            <section className="animated fadeIn">
+            <section className="animated rubberBand">
                 <Header  {...this.props}/>
                 <Content {...this.props}/>
                 <Footer  {...this.props}/>

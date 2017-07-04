@@ -33,19 +33,19 @@ export default function (context) {
         linkResume:{
             float: "left",
             background: "#F44336",
-            height: "85px",
-            width: "85px",
+            height: "75px",
+            width: "75px",
             margin: "5px 0",
-            lineHeight: "90px",
+            lineHeight: "79px",
             borderRadius: "10px"
         },
         linkAbout:{
             float: "left",
             background: "#FBC02D",
-            height: "100px",
-            width: "100px",
+            height: "75px",
+            width: "75px",
             margin: "5px",
-            lineHeight: "100px",
+            lineHeight: "79px",
             borderRadius: "10px"
         }
     }
