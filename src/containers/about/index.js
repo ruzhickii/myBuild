@@ -15,7 +15,7 @@ class Home extends Component {
         const styles = getStyles(this.context);
 
         return (
-            <div className="animated swing">
+            <div className="animated flip">
                 <div style={styles.title}>
                     <Helmet title="About Page"/>
                     <p>About</p>

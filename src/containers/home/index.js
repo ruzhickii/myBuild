@@ -17,7 +17,7 @@ class Home extends Component {
         const styles = getStyles(this.context);
 
         return (
-            <div className="animated tada">
+            <div className="animated ">
                 <Helmet title="Home Page"/>
                 <Information />
             </div>

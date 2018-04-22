@@ -7,7 +7,7 @@ class Footer extends Component {
         const styles = getStyles(this.context);
 
         return (
-            <footer style={styles.root}>
+            <footer className="animated bounceInUp" style={styles.root}>
                 <div style={styles.title}>
                     Its our FOOTER !
                 </div>

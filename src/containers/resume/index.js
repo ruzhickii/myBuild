@@ -16,7 +16,7 @@ class Resume extends Component {
         const styles = getStyles(this.context);
 
         return (
-            <div className="animated bounce">
+            <div className="animated flip">
                 <Helmet title="Resume Page"/>
                 <div>
                     <ResumeTitle />

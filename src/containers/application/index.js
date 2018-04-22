@@ -12,7 +12,7 @@ class RootPortal extends Component {
 
     render() {
         return (
-            <section className="animated rubberBand">
+            <section className="animated ">
                 <Header  {...this.props}/>
                 <Content {...this.props}/>
                 <Footer  {...this.props}/>
