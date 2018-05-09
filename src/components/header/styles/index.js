@@ -8,8 +8,9 @@ export default function (context) {
         link: {
             margin: "0px 10px",
             textDecoration: "none",
-            color: "#fff",
-            fontWeight: "bold"
+            color: "#000",
+            fontSize: "30px",
+            fontFamily: "serif"
         },
         textAlign:{
             textAlign: "left"
@@ -22,31 +23,22 @@ export default function (context) {
             color: "gray"
         },
         linkHome:{
-            float: "left",
-            background: "#2196F3",
-            height: "75px",
-            width: "75px",
+            float: "right",
+            width: "130px",
             margin: "5px",
-            lineHeight: "79px",
-            borderRadius: "10px"
+            lineHeight: "79px"
         },
         linkResume:{
-            float: "left",
-            background: "#F44336",
-            height: "75px",
-            width: "75px",
-            margin: "5px 0",
-            lineHeight: "79px",
-            borderRadius: "10px"
+            float: "right",
+            width: "130px",
+            margin: "5px",
+            lineHeight: "79px"
         },
         linkAbout:{
-            float: "left",
-            background: "#FBC02D",
-            height: "75px",
-            width: "75px",
+            float: "right",
+            width: "130px",
             margin: "5px",
-            lineHeight: "79px",
-            borderRadius: "10px"
+            lineHeight: "79px"
         }
     }
 }
