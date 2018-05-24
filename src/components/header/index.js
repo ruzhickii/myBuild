@@ -20,7 +20,7 @@ class Header extends Component {
                                     <span style={styles.position}>Front-End Developer</span>
                                 </div>
                             </div>
-                            <div className="col-xs-12 col-md-6 animated slideInRight">
+                            <div style={styles.wrapper} className="col-xs-12 col-md-6 animated slideInRight">
                                 <div style={styles.linkHome}>
                                     <IndexLink style={styles.link} activeClassName={'active'} to={'/'}>
                                         Home

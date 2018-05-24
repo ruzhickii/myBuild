@@ -22,20 +22,21 @@ export default function (context) {
             fontSize: "20px",
             color: "gray"
         },
+        wrapper:{
+          display: "flex",
+          justifyContent: "center"
+        },
         linkHome:{
-            float: "right",
             width: "130px",
             margin: "5px",
             lineHeight: "79px"
         },
         linkResume:{
-            float: "right",
             width: "130px",
             margin: "5px",
             lineHeight: "79px"
         },
         linkAbout:{
-            float: "right",
             width: "130px",
             margin: "5px",
             lineHeight: "79px"
